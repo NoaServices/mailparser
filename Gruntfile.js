@@ -18,5 +18,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
     // Tasks
-    grunt.registerTask('default', ['eslint', 'nodeunit']);
+    grunt.registerTask('default', ['nodeunit']);
 };
