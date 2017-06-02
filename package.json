@@ -1,6 +1,6 @@
 {
   "name": "mailparser",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Parse e-mails",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,8 @@
     "html-to-text": "3.1.0",
     "iconv-lite": "0.4.15",
     "mailsplit": "4.0.0",
-    "marked": "0.3.6"
+    "marked": "0.3.6",
+    "rfc2047": "2.0.1"
   },
   "devDependencies": {
     "eslint-config-nodemailer": "^1.0.0",
